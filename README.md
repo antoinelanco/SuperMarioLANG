@@ -6,7 +6,7 @@ SuperMarioLANG is a 2d language based on mariolang (https://esolangs.org/wiki/Ma
 
 ## functionnement
 
-### world :
+### level :
 
 
 
@@ -18,55 +18,57 @@ SuperMarioLANG is a 2d language based on mariolang (https://esolangs.org/wiki/Ma
 
 ### parts
 
-**=** :
 
-**#** :
 
-**"** :
+`=` ground : 
+
+`#` pipe entrance :
+
+`"` pipe exit :
 
 ### items:
 
-**(** :
+`(` previous cell:
 
-**)** :
+`)` next cell :
 
-**+** :
+`+` increment cell :
 
-**-** :
+`-` decrement cell :
 
-**.** :
+`,` read imput as ascii character :
 
-**:** :
+`;` read imput as number :
 
-**,** :
+`.` print cell as ascii character :
 
-**;** :
+`:` print cell as number :
 
-**M** :
+`M` magic mushroom : 
 
-**W** :
+`W` poison mushroom :
 
-**?** :
+`?` syscall :
 
 ### instructions:
 
-**>** :
+`>` go right :
 
-**<** :
+`<` go left :
 
-**^** :
+`^` jump :
 
-**!** :
+`!` stop :
 
-**@** :
+`@` change direction :
 
-**J** :
+`J` jump :
 
-**I** :
+`I` ignore next if cell :
 
-**\[** :
+`[` ignore next if cell :
 
-**]** :
+`]` ignore next if cell :
 
 
 ## specific behavior :

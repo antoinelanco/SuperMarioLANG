@@ -1,86 +1,87 @@
 # SuperMarioLANG
 
-Overview
+## Overview
  
 SuperMarioLANG is a 2d language based on mariolang (https://esolangs.org/wiki/MarioLANG) that aim to add detailed specification as well as new functionalities
 
-functionnement
+## functionnement
 
--world :
-
-
-
--mario :
+### world :
 
 
 
-Instructions :
-
--parts
-
-"=" :
-
-"#" :
-
-""" :
-
--items:
-
-"(" :
-
-")" :
-
-"+" :
-
-"-" :
-
-"." :
-
-":" :
-
-"," :
-
-";" :
-
-"M" :
-
-"W" :
-
-"?" :
-
--instructions:
-
-">" :
-
-"<" :
-
-"^" :
-
-"!" :
-
-"@" :
-
-"J" :
-
-"I" :
-
-"\[" :
-
-"]" :
+### mario :
 
 
-specific behavior :
 
-elevators :
+## Instructions :
+
+### parts
+
+**=** :
+
+**#** :
+
+**"** :
+
+### items:
+
+**(** :
+
+**)** :
+
+**+** :
+
+**-** :
+
+**.** :
+
+**:** :
+
+**,** :
+
+**;** :
+
+**M** :
+
+**W** :
+
+**?** :
+
+### instructions:
+
+**>** :
+
+**<** :
+
+**^** :
+
+**!** :
+
+**@** :
+
+**J** :
+
+**I** :
+
+**\[** :
+
+**]** :
 
 
-tall mario :
+## specific behavior :
+
+### elevators :
 
 
-jump :
+### tall mario :
 
 
-examples :
+### jump :
+
+---
+
+### examples :
 
 
 

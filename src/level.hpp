@@ -29,4 +29,20 @@ public:
   bool step(){
     return false;
   }
+
+  void one_step(){
+    char codechar = this->map[this->m.x][this->m.y];
+    switch(codechar){
+		case '=': case '|': case '#': case '"':
+			cout << "fail" << endl;
+    case ':':
+      int i;
+      cin >> i;
+      cout << i;
+
+    }
+
+  }
+
+
 };

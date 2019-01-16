@@ -33,13 +33,28 @@ public:
   void one_step(){
     char codechar = this->map[this->m.x][this->m.y];
     switch(codechar){
-		case '=': case '|': case '#': case '"':
-			cout << "fail" << endl;
-    case ':':
-      int i;
-      cin >> i;
-      cout << i;
 
+      case '=': case '|': case '#': case '"': // " a vefier 
+        cout << "Died" << endl;
+        return false;
+
+      case ')': break;
+      case '(': break;
+      case '+': break;
+      case '-': break;
+      case '.': break;
+      case ':': break;
+      case ',': break;
+      case ';': break;
+      case '>': break;
+      case '<': break;
+      case '^': break;
+      case '!': break;
+      case '[': break;
+      case '@': break;
+
+      default:
+        break;
     }
 
   }

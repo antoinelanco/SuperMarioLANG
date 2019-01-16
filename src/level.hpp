@@ -33,8 +33,17 @@ public:
   string get_out(){return this->out;}
 
   bool step(){
-    one_step();
-    return false;
+    if (this->m.x < 0 || this->m.x >= this->wigth ||
+        this->m.y < 0 || this->m.y >= this->height) {
+      return false;
+    }
+    if(!one_step())return false;
+    move();
+    return true;
+  }
+
+  void move(){
+    
   }
 
   bool one_step(){
@@ -59,10 +68,10 @@ public:
       case ';': int tmp_i; cin >> tmp_i; this->b.set(tmp_i); break;
       case '>': this->m.dir = RIGHT; this->m.walking = true; break;
       case '<': this->m.dir = LEFT; this->m.walking = true; break;
-      case '^': break;
+      case '^': break; // impl
       case '!': this->m.walking = false; break;
       case '[': this->m.skip = true; break;
-      case '@': break;
+      case '@': break; // impl
 
       default:
         break;

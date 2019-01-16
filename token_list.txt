@@ -1,0 +1,19 @@
+' ' : nothing
+'=' : ground
+'|' : wall
+'#' : pipe entrance
+'"' : pipe exit
+')' : previous cell
+'(' : next cell
+'+' : increment cell value
+'-' : decrement cell value
+',' : read imput as ascii character
+';' : read imput as number
+'.' : print cell as ascii character
+':' : print cell as number
+'>' : go right
+'<' : go left
+'^' : jump
+'!' : stop walking
+'[' : ignore next token if cell equal 0
+'@' : change direction

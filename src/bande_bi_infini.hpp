@@ -13,6 +13,8 @@ public:
     neg.resize(10,val);
   }
   T& get(){return index<0?neg[-index-1]:pos[index];}
+	void inc(){(index<0?neg[-index-1]:pos[index])++;}
+	void dec(){(index<0?neg[-index-1]:pos[index])--;}
   void set(T v){ (index<0?neg[-index-1]:pos[index]) = v;}
   void forward(){
     index++;

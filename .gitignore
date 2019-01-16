@@ -1,3 +1,4 @@
 *.d
 *.o
 prog
+tmp.txt

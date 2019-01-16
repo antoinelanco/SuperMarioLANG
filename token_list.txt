@@ -7,8 +7,8 @@
 '(' : next cell
 '+' : increment cell value
 '-' : decrement cell value
-',' : read imput as ascii character
-';' : read imput as number
+',' : read input as ascii character
+';' : read input as number
 '.' : print cell as ascii character
 ':' : print cell as number
 '>' : go right
